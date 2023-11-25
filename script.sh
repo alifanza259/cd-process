@@ -14,7 +14,7 @@ folderName=release-$now
 sudo mkdir $folderName
 
 cd /var/www/deployment/pwd-unindra
-sudo cp *.html release/$folderName
+sudo cp *.html sort release/$folderName
 sudo ln -s -T /var/www/deployment/pwd-unindra/release/$folderName /var/www/html/deployment/pwd-unindra
 
 echo "Done: $(date)"
